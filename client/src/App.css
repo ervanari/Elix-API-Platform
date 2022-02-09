@@ -1,0 +1,38 @@
+:root {
+  --PUT-color: #f39e00;
+  --GET-color: #9571ff;
+  --POST-color: rgb(0, 201, 10);
+  --DELETE-color: rgb(255, 0, 0);
+  --OPTION-color: rgb(0, 162, 255);
+  --PATCH-color: rgb(224, 209, 0);
+}
+
+.post {
+  color: var(--POST-color);
+}
+.get {
+  color: var(--GET-color);
+}
+.put {
+  color: var(--PUT-color);
+}
+.delete {
+  color: var(--DELETE-color);
+}
+.option {
+  color: var(--OPTION-color);
+}
+.patch {
+  color: var(--PATCH-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.icon {
+  margin-right: 5px;
+}
+.mr-2 {
+  margin-right: 20px;
+}
